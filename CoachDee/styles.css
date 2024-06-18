@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+html, body{
+    margin: 0%;
+    padding: 0%;
+    
+    
+}
+
+.login-section{
+    float: right;
+    padding-right: 3em;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 0% auto;
+}
+
+.login-text{
+    color: black;
+    text-decoration:none;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+
+.login-section input{
+    margin-bottom: 12px;
+    padding: 8px;
+    font-size: 12px;
+}
+
+
+.main-header{
+    background-image: url(/Users/duane/CoachDee/background_clouds.jpeg);
+    background-blend-mode: multiply;
+    padding-bottom: 25px;
+    background-size: cover;
+    margin: 0%;
+    padding-top: 0%;
+}
+.nav ul{
+    margin: 1%;
+}
+.nav li{
+    display:flow-root;
+}
+.nav a{
+    padding: .2em;
+    padding-bottom: .01em;
+    color: black;
+    text-decoration:none;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+.nav a:hover{
+    background-color: #f9aaaa;
+    color: white;
+}
+.main-nav{
+    text-align:left;
+    font-size: 1em;
+    font-weight: bold;
+    
+}
+.nav-2 ul{
+    list-style-type: none;
+    display: inline-flex;
+    justify-content: space-around;
+    margin:0%;
+}
+
+.nav-2 li{
+    flex: 1;
+    text-align: center;
+    display: inline;
+    margin: 0%;
+}
+
+.nav-2 a{
+    display: inline-block;
+    padding: 2em;
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+.nav-2 a:hover{
+    background-color: #f9aaaa;
+    color: black;
+    border-radius: 70%;
+}
+
+.second-nav{
+    display: inline;
+    font-size: .75em;
+    font-weight:normal;
+    margin: 1em;
+}
+
+.coach-name{
+    text-align: center;    
+    font-size: 5em;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.section-header{
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #f9aaaa;
+    text-align: center;
+    padding-top: 5em;
+}
+
+.contant-section{
+    margin: 2em;
+}
+.container{
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 1.3em;
+}
+.about-section{
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    color: gray;
+    font-size: large;
+}
+
+.panther-logo{
+    float: left;
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    border-radius: 0%;
+}
+
+.main-footer{
+    margin-top: 7em;
+    background-image: url(/Users/duane/CoachDee/background_clouds.jpeg);
+    padding: 5em;
+}
+.main-footer-container{
+    display: flex;
+    align-items: center;
+}
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li{
+    padding: 0;
+    float: right;
+}
+.footer-nav a:hover{
+    background-color: transparent;
+}
+
+
+.panther-button{
+    display: inline-block;
+    padding: 0.9rem 1.8rem;
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    border: 3px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: transparent;
+    text-decoration: none;
+    overflow: hidden;
+    z-index: 1;
+    font-family: inherit;
+   }
+   
+   .panther-button::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f9aaaa;
+    transform: translateX(-100%);
+    transition: all .3s;
+    z-index: -1;
+    
+   }
+   
+   .panther-button:hover::before {
+    transform: translateX(0);
+   }
+
+   .contact-button{
+    padding: 10px 20px;
+    margin:3em;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+    cursor: pointer;
+   }
+
+   .contact-button{
+    background: #f9aaaa;
+    box-shadow: #f9aaaa;
+    display: inline;
+    text-align: center;
+    align-items:center;
+    float:none;
+    text-decoration: none;
+   }
+
+   .contact-button:hover{
+
+    box-shadow: 0 0 5px #f9aaaa,
+                0 0 25px #f9aaaa,
+                0 0 50px #f9aaaa,
+                0 0 100px #f9aaaa;
+   }
+   
+   .contact-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:auto;
+    text-align: center;
+   }
+
+   .message-box{
+    border-color: #f9aaaa;
+    background-color: rgb(244, 244, 244);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    }
+
+    .login-button{
+        padding: 5px;
+        background: transparent;
+        transition: 0.5s;
+        border: white solid .2em;
+        border-radius: 5%;
+        cursor: pointer;
+
+    }
+
+    .input-section{
+        background: transparent;
+        border: black solid .09em;
+    }
