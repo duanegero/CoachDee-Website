@@ -13,9 +13,8 @@ html, body{
 
 .main-header{
     background-image: url(/Users/duane/CoachDee/background_clouds.jpeg);
-    background-blend-mode: multiply;
-    padding-bottom: 25px;
-    background-size: cover;
+    background-blend-mode:color black;
+    background-size:contain;
     margin: 0%;
     padding-top: 0%;
 }
