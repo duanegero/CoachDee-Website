@@ -11,10 +11,12 @@ html, body{
     padding: 0%;
 }
 
+
 .main-header{
     background-image: url(/Users/duane/CoachDee/background_clouds.jpeg);
-    background-blend-mode:color black;
-    background-size:contain;
+    background-blend-mode: multiply;
+    padding-bottom: 25px;
+    background-size: cover;
     margin: 0%;
     padding-top: 0%;
 }
