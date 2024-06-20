@@ -104,15 +104,21 @@ html, body{
     color: #f7bdbd;
     text-align: center;
     padding-top: 5em;
+    letter-spacing: 4px;
+    border-bottom: 2px solid #f7bdbd;
+    
 }
 
 .contant-section{
     margin: 2em;
+    
 }
 .container{
     max-width: 650px;
     margin: 0 auto;
     padding: 0 1.3em;
+    align-items: center;
+
 }
 .about-section{
     font-family: "Roboto Condensed", sans-serif;
