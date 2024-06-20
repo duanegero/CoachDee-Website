@@ -13,7 +13,7 @@ html, body{
 
 
 .main-header{
-    background-image: url(Images/background_clouds.jpeg);
+    background-image: url(/CoachDee/Images/background_clouds.jpeg);
     background-blend-mode: multiply;
     padding-bottom: 25px;
     background-size: cover;
@@ -35,6 +35,7 @@ html, body{
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
+    letter-spacing: 3px;
 }
 .nav a:hover{
     background-color: #f7bdbd;
@@ -92,6 +93,7 @@ html, body{
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    letter-spacing: 4px;
 }
 
 .section-header{
@@ -131,7 +133,7 @@ html, body{
 
 .main-footer{
     margin-top: 7em;
-    background-image: url(Images/background_clouds.jpeg);
+    background-image: url(/CoachDee/Images/background_clouds.jpeg);
     padding: 5em;
 }
 .main-footer-container{
@@ -248,4 +250,12 @@ html, body{
     .input-section{
         background: transparent;
         border: black solid .09em;
+    }
+
+    .coach-name-footer{
+        font-family: "Roboto Condensed", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-size: x-large;
+        letter-spacing: 3px;
     }
