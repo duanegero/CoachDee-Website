@@ -13,7 +13,7 @@ html, body{
 
 
 .main-header{
-    background-image: url(background_clouds.jpeg);
+    background-image: url(Images/background_clouds.jpeg);
     background-blend-mode: multiply;
     padding-bottom: 25px;
     background-size: cover;
@@ -131,7 +131,7 @@ html, body{
 
 .main-footer{
     margin-top: 7em;
-    background-image: url(background_clouds.jpeg);
+    background-image: url(Images/background_clouds.jpeg);
     padding: 5em;
 }
 .main-footer-container{
