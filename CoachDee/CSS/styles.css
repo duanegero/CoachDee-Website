@@ -35,7 +35,7 @@ html, body{
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
-    letter-spacing: 3px;
+    letter-spacing: 7px;
 }
 .nav a:hover{
     background-color: #f7bdbd;
@@ -47,19 +47,22 @@ html, body{
     font-weight: bold;
     
 }
+
+.nav-2{
+    text-align: center;
+    padding: 10px 0;
+}
+
 .nav-2 ul{
     list-style-type: none;
-    display: inline-flex;
-    justify-content: space-around;
-    margin:0%;
+    display: inline-block;
+    padding: 0;
+    margin:0;
 }
 
 .nav-2 li{
-    flex: 1;
-    text-align: center;
     display: inline;
-    margin: 0%;
-    padding: 1px;
+    margin: 0 10px;
 }
 
 .nav-2 a{
@@ -80,20 +83,22 @@ html, body{
 }
 
 .second-nav{
-    display: inline;
     font-size: .75em;
     font-weight:normal;
     margin: 10px;
+    letter-spacing: 3px;
+    
 }
 
 .coach-name{
+    padding-top: 100px;
     text-align: center;    
-    font-size: 5em;
+    font-size: 8em;
     font-family: "Roboto Condensed", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 700;
     font-style: normal;
-    letter-spacing: 4px;
+    letter-spacing: 24px;
 }
 
 .section-header{
